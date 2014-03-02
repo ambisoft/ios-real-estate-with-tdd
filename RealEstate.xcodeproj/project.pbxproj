@@ -21,7 +21,8 @@
 		4DDA03C918C374AB006202C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDA03A518C374AB006202C2 /* Foundation.framework */; };
 		4DDA03CA18C374AB006202C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDA03A918C374AB006202C2 /* UIKit.framework */; };
 		4DDA03D218C374AB006202C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DDA03D018C374AB006202C2 /* InfoPlist.strings */; };
-		4DDA03D418C374AC006202C2 /* RealEstateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDA03D318C374AC006202C2 /* RealEstateTests.m */; };
+		4DDA03DF18C374B7006202C2 /* PropertyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDA03DE18C374B7006202C2 /* PropertyLocation.m */; };
+		4DDA03E118C374D4006202C2 /* PropertyLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDA03E018C374D4006202C2 /* PropertyLocationTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +56,9 @@
 		4DDA03C718C374AB006202C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4DDA03CF18C374AB006202C2 /* RealEstateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealEstateTests-Info.plist"; sourceTree = "<group>"; };
 		4DDA03D118C374AB006202C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4DDA03D318C374AC006202C2 /* RealEstateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealEstateTests.m; sourceTree = "<group>"; };
+		4DDA03DD18C374B7006202C2 /* PropertyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyLocation.h; sourceTree = "<group>"; };
+		4DDA03DE18C374B7006202C2 /* PropertyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyLocation.m; sourceTree = "<group>"; };
+		4DDA03E018C374D4006202C2 /* PropertyLocationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyLocationTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				4DDA03BE18C374AB006202C2 /* DetailViewController.m */,
 				4DDA03C018C374AB006202C2 /* Images.xcassets */,
 				4DDA03AC18C374AB006202C2 /* Supporting Files */,
+				4DDA03DD18C374B7006202C2 /* PropertyLocation.h */,
+				4DDA03DE18C374B7006202C2 /* PropertyLocation.m */,
 			);
 			path = RealEstate;
 			sourceTree = "<group>";
@@ -142,7 +147,7 @@
 		4DDA03CD18C374AB006202C2 /* RealEstateTests */ = {
 			isa = PBXGroup;
 			children = (
-				4DDA03D318C374AC006202C2 /* RealEstateTests.m */,
+				4DDA03E018C374D4006202C2 /* PropertyLocationTests.m */,
 				4DDA03CE18C374AB006202C2 /* Supporting Files */,
 			);
 			path = RealEstateTests;
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DDA03DF18C374B7006202C2 /* PropertyLocation.m in Sources */,
 				4DDA03B618C374AB006202C2 /* AppDelegate.m in Sources */,
 				4DDA03BC18C374AB006202C2 /* MasterViewController.m in Sources */,
 				4DDA03B218C374AB006202C2 /* main.m in Sources */,
@@ -265,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DDA03D418C374AC006202C2 /* RealEstateTests.m in Sources */,
+				4DDA03E118C374D4006202C2 /* PropertyLocationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
